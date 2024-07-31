@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas Seguras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Contraseñas Seguras</h1>
+        <div class="generator">
+            <label for="charRange">Cantidad de caracteres: <span id="charCount">9</span></label>
+            <input type="range" id="charRange" min="4" max="12" value="9">
+            <button id="generateBtn" class="boton">Generar Contraseña</button>
+            <button id="clearBtn" class="boton">Limpiar</button>
+            <input type="text" id="passwordField" readonly>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
